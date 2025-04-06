@@ -127,3 +127,103 @@ body {
 .version {
     font-size: 12px;
 }
+
+/* PÁGINA DE LOGIN */
+.formulario {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.h2_bemvindo {
+    text-align: center;
+}
+
+.login {
+    display: flex;
+    padding-top: 12%;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .container {
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+    width: 500px;
+    color: palevioletred;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+#email_input {
+    border-color: aqua;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    height: 30px;
+}
+
+#senha_input {
+    border-color: aqua;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    height: 30px;
+}
+
+.botao {
+    color: white;
+    background-color: rgb(228, 26, 93);
+    border-radius: 10px;
+    width: 125px;
+    height: 30px;
+    font-weight: 800;
+}
+
+/* CADASTRO */
+.card-cadastro h2 {
+    text-align: center;
+}
+
+.campo {
+    display: flex;
+    color: palevioletred;
+    align-self: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.banner .container .card-cadastro {
+    background-color: gainsboro;
+    width: 500px;
+    color: palevioletred;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+#codigo_input {
+    border-color: aqua;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    height: 30px;
+}
+
+#nome_input {
+    border-color: aqua;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    height: 30px;
+}
+
+#confirmacao_senha_input {
+    border-color: aqua;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    height: 30px;
+}
